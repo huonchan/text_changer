@@ -2,8 +2,8 @@
 <html>
 
 <head>
-    <title>縦に並んだフォーム要素</title>
-    
+    <title>表現の不自由展</title>
+
 </head>
 
 <style>
@@ -30,33 +30,47 @@
     <div id="form">
 
         <div>
-            <div>表現の自由</div>
-            <textarea id="origin_text_area" name="origin_text_area" rows="10" cols="160">
+            <div id="origin_text_count">
+                表現の自由　文字数:XXX
+            </div>
+            <div>
+                仮テキスト挿入
+                <button type="button" onclick="karitxt_otouto_killer()">当職の弟を当職が殺した</button>
+                <button type="button" onclick="karitxt_gyukaku_misojini()">牛角の男性差別商法</button>
+                <button type="button" onclick="karitxt_orekayo_sinegomi()">ワイが馬鹿に通報されてロックしたツイット</button>
+                <button type="button" onclick="karitxt_sorairo()">空は何色か</button>
+            </div>
+            <textarea id="origin_text_area" name="origin_text_area" rows="20" cols="120">
             </textarea>
         </div>
 
         <div>
             <label for="frozen_word">凍結ワード変化</label>
             <input type="checkbox" id="frozen_word" name="frozen_word" checked>
-            <label for="loo_change">ルー変換</label>
-            <input type="number" id="loo_change" name="loo_change" value="100" cols="10">
+            <label for="lou_change">ルー変換</label>
+            <input type="number" id="lou_change" name="lou_change" value="80" cols="10">
+            <label for="japanese_change">日本語変換</label>
+            <input type="number" id="japanese_change" name="lou_change" value="100" cols="10">
             <label for="innmu_goroku">淫夢変換</label>
             <input type="checkbox" id="innmu_goroku" name="innmu_goroku">
             <label for="sex_change">男女界隈変換</label>
             <input type="checkbox" id="sex_change" name="sex_change">
         </div>
         <div>
-            <button type="button"  onclick="changeText()">表現規制開始</button>
+            <button type="button" onclick="changeText()">表現規制開始</button>
         </div>
         <div>
-            <div>表現の不自由</div>
-            <textarea id="change_text_area" name="change_text_area" rows="10" cols="160">
+            <div id="change_text_count">表現の不自由　文字数:XXX</div>
+            <div>
+                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button"
+                    data-show-count="false">Tweet</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            <textarea id="change_text_area" name="change_text_area" rows="20" cols="120">
             </textarea>
         </div>
 
-        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button"
-            data-show-count="false">Tweet</a>
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
     </div>
 </body>
 
