@@ -6,7 +6,7 @@ var convert_list = {
     //禁止用語変換
     "死ね":
     {
-        "text": ["輝け(ローマ字読み)"],
+        "text": ["輝け(ローマ字読み)","ごSAY去遊ばせ"],
         "frozen": true
     },
     "殺":
@@ -16,12 +16,12 @@ var convert_list = {
     },
     "殺害":
     {
-        "text": ["ホロコースト"],
+        "text": ["杀殳GUY", "ホロコースト"],
         "frozen": true
     },
     "障害者":
     {
-        "text": ["SHOW GUY SHA", "PerfectHuman(24時間TV)"],
+        "text": ["SHOW GUY SHA", "PerfectHuman(24時間TV)","天使ちゃん","てんす"],
         "frozen": true
     },
     "障害":
@@ -83,6 +83,7 @@ var convert_list = {
     {
         "text": ["マイ"],
         "lou": true,
+        "loulv":1,
     },
     "います":
     {
@@ -92,403 +93,484 @@ var convert_list = {
     "否":
     {
         "text": ["ノー"],
-        "lou": true
+        "lou": true,
+        "loulv":1,
     },
     "弟":
     {
         "text": ["リトルブラザー"],
-        "lou": true
+        "lou": true,
+        "loulv":2,
     },
     "名前":
     {
         "text": ["ネーム"],
-        "lou": true
+        "lou": true,
+        "loulv":1,
     },
     "一":
     {
         "text": ["ワン"],
-        "lou": true
+        "lou": true,
+        "loulv":1,
     },
     "違い":
     {
         "text": ["ディファレント"],
-        "lou": true
+        "lou": true,
+        "loulv":1,
     },
     "たが":
     {
         "text": ["たBut"],
-        "lou": true
+        "lou": true,
+        "loulv":1,
     },
     "私":
     {
-        "text": ["マイセルフ", "マイ"],
-        "lou": true
+        "text": ["my self","マイセルフ", "マイ"],
+        "lou": true,
+        "loulv":1,
     },
     "いも":
     {
         "text": ["ポテト"],
-        "lou": true
+        "lou": true,
+        "loulv":1,
     },
     "川":
     {
         "text": ["リバー"],
-        "lou": true
+        "lou": true,
+        "loulv":1,
     },
     "河":
     {
         "text": ["リバー"],
-        "lou": true
+        "lou": true,
+        "loulv":1,
     },
     "あっ":
     {
         "text": ["Aっ"],
-        "lou": true
+        "lou": true,
+        "loulv":1,
     },
     "日":
     {
         "text": ["DAY"],
-        "lou": true
+        "lou": true,
+        "loulv":1,
     },
     "自殺":
     {
         "text": ["殺害"],
         "lou": true,
-        "frozen": false
+        "frozen": false,
+        "loulv":3,
     },
     "中には":
     {
         "text": ["インサイドには"],
         "lou": true,
+        "loulv":3,
     },
     "中":
     {
-        "text": ["イン"],
+        "text": ["in","イン"],
         "lou": true,
+        "loulv":1,
     },
     "いつも":
     {
         "text": ["Yesつも"],
         "lou": true,
+        "loulv":2,
     },
     //ここよりオリジナル
     "自我":
     {
         "text": ["エゴ"],
         "lou": true,
+        "loulv":1,
     },
     "戦う":
     {
         "text": ["ファイト"],
         "lou": true,
+        "loulv":2,
     },
     "男性":
     {
         "text": ["メン"],
-        "lou": true
+        "lou": true,
+        "loulv":1,
     },
     "角":
     {
         "text": ["ホーン"],
-        "lou": true
+        "lou": true,
+        "loulv":2,
     },
     "男":
     {
         "text": ["マン"],
-        "lou": true
+        "lou": true,
+        "loulv":1,
     },
     "性":
     {
         "text": ["Sex"],
-        "lou": true
+        "lou": true,
+        "loulv":1,
     },
     "差別":
     {
-        "text": ["ヘイト"],
-        "lou": true
+        "text": ["Hate","ヘイト"],
+        "lou": true,
+        "loulv":2,
     },
     "ついた":
     {
         "text": ["アタッチ"],
-        "lou": true
+        "lou": true,
+        "loulv":3,
     },
     "火":
     {
         "text": ["ファイア"],
-        "lou": true
+        "lou": true,
+        "loulv":3,
     },
     "線":
     {
         "text": ["ライン"],
-        "lou": true
+        "lou": true,
+        "loulv":3,
     },
     "絶対":
     {
-        "text": ["アブソリュート"],
-        "lou": true
+        "text": ["絶Pair","アブソリュート"],
+        "lou": true,
+        "loulv":4,
     },
     "許":
     {
         "text": ["forfive"],
-        "lou": true
+        "lou": true,
+        "loulv":4,
     },
     "ねぇ":
     {
         "text": ["no","not exist"],
-        "lou": true
+        "lou": true,
+        "loulv":2,
     },
     "名":
     {
-        "text": ["ネーム"],
-        "lou": true
+        "text": ["Name","ネーム"],
+        "lou": true,
+        "loulv":1,
     },
     "牛":
     {
-        "text": ["ビーフ"],
-        "lou": true
+        "text": ["Beef","ビーフ"],
+        "lou": true,
+        "loulv":2,
     },
     "潰して":
     {
-        "text": ["プレス"],
-        "lou": true
+        "text": ["Press","プレス"],
+        "lou": true,
+        "loulv":2,
     },
     "今":
     {
         "text": ["ナウ","now"],
-        "lou": true
+        "lou": true,
+        "loulv":1,
     },
     "個人":
     {
         "text": ["パーソナル"],
-        "lou": true
+        "lou": true,
+        "loulv":3,
     },
     "人":
     {
         "text": ["ピーブル","People"],
-        "lou": true
+        "lou": true,
+        "loulv":3,
     },
     "店":
     {
-        "text": ["ショップ"],
-        "lou": true
+        "text": ["shop","ショップ"],
+        "lou": true,
+        "loulv":2,
     },
     "企業":
     {
         "text": ["カンパニー"],
-        "lou": true
+        "lou": true,
+        "loulv":2,
     },
     "戦っ":
     {
-        "text": ["ファイトし"],
-        "lou": true
+        "text": ["Fightし","ファイトし"],
+        "lou": true,
+        "loulv":3,
     },
     "戦い":
     {
-        "text": ["デュエル"],
-        "lou": true
+        "text": ["duel","デュエル"],
+        "lou": true,
+        "loulv":2,
     },
     "全":
     {
-        "text": ["フル"],
-        "lou": true
+        "text": ["Full","フル"],
+        "lou": true,
+        "loulv":1,
     },
     "身":
     {
-        "text": ["ボディ"],
-        "lou": true
+        "text": ["Body","ボディ"],
+        "lou": true,
+        "loulv":2,
     },
     "霊":
     {
-        "text": ["ゴースト", "スピリット"],
-        "lou": true
+        "text": ["Ghost","Spirit","ゴースト", "スピリット"],
+        "lou": true,
+        "loulv":3,
     },
     "挑んで":
     {
         "text": ["チャレンジして"],
-        "lou": true
+        "lou": true,
+        "loulv":3,
     },
     "来たよ":
     {
         "text": ["comeよ"],
-        "lou": true
+        "lou": true,
+        "loulv":2,
     },
     "きたよ":
     {
         "text": ["comeよ"],
-        "lou": true
+        "lou": true,
+        "loulv":2,
     },
     "やる":
     {
-        "text": ["トライ"],
-        "lou": true
+        "text": ["try","トライ"],
+        "lou": true,
+        "loulv":1,
     },
     "闘志":
     {
         "text": ["テンション"],
-        "lou": true
+        "lou": true,
+        "loulv":3,
     },
     "法":
     {
         "text": ["Law"],
-        "lou": true
+        "lou": true,
+        "loulv":2,
     },
     "内":
     {
-        "text": ["イン"],
-        "lou": true
+        "text": ["in","イン"],
+        "lou": true,
+        "loulv":1,
     },
     "使":
     {
-        "text": ["ユーズ"],
-        "lou": true
+        "text": ["use","ユーズ"],
+        "lou": true,
+        "loulv":1,
     },
     "手":
     {
-        "text": ["ハンド"],
-        "lou": true
+        "text": ["hand","ハンド"],
+        "lou": true,
+        "loulv":1,
     },
     "やる":
     {
-        "text": ["プレイ"],
-        "lou": true
+        "text": ["play","プレイ"],
+        "lou": true,
+        "loulv":1,
     },
     "異世界":
     {
         "text": ["パラレルワールド"],
-        "lou": true
+        "lou": true,
+        "loulv":4,
     },
     "世界":
     {
         "text": ["ワールド"],
-        "lou": true
+        "lou": true,
+        "loulv":3,
     },
     "異":
     {
         "text": ["ディファレンツ"],
-        "lou": true
+        "lou": true,
+        "loulv":4,
     },
     "さよなら":
     {
         "text": ["グッバイ","Good Bye"],
-        "lou": true
+        "lou": true,
+        "loulv":2,
     },
     "出来事":
     {
         "text": ["イベント","Event"],
-        "lou": true
+        "lou": true,
+        "loulv":2,
     },
     "凄い":
     {
         "text": ["グレート","ファニー","Great","Funny"],
-        "lou": true
+        "lou": true,
+        "loulv":2,
     },
     "能力":
     {
         "text": ["アビリティ","スキル"],
-        "lou": true
+        "lou": true,
+        "loulv":2,
     },
     "得":
     {
         "text": ["ゲット","Get"],
-        "lou": true
+        "lou": true,
+        "loulv":1,
     },
     "いい":
     {
         "text": ["Good","グッド"],
-        "lou": true
+        "lou": true,
+        "loulv":1,
     },
     "マンガ":
     {
         "text": ["コミック"],
-        "lou": true
+        "lou": true,
+        "loulv":1,
     },
     "漫画":
     {
         "text": ["コミック"],
-        "lou": true
+        "lou": true,
+        "loulv":1,
     },
     "現実":
     {
         "text": ["リアル","Real"],
-        "lou": true
+        "lou": true,
+        "loulv":2,
     },
     "動かす":
     {
         "text": ["ムービング","Moveing"],
-        "lou": true
+        "lou": true,
+        "loulv":3,
     },
     "動":
     {
         "text": ["ムーブ","Move"],
-        "lou": true
+        "lou": true,
+        "loulv":2,
     },
     "サヨナラ":
     {
         "text": ["グッバイ","Good Bye"],
-        "lou": true
+        "lou": true,
+        "loulv":2,
     },
     "今すぐ":
     {
         "text": ["ハリーアップ"],
-        "lou": true
+        "lou": true,
+        "loulv":3,
     },
     "今":
     {
         "text": ["ナウ","Now"],
-        "lou": true
+        "lou": true,
+        "loulv":1,
     },
     "心":
     {
-        "text": ["マインド","Mind"]
+        "text": ["マインド","Mind"],
+        "lou":true,
+        "loulv":2,
     },
     "命":
     {
         "text": ["ライフ","Life"],
-        "lou": true
+        "lou": true,
+        "loulv":2,
     },
     "できる":
     {
         "text": ["トライ","Try"],
-        "lou": true
+        "lou": true,
+        "loulv":2,
     },
     "出来る":
     {
         "text": ["トライ","Try"],
-        "lou": true
+        "lou": true,
+        "loulv":2,
     },
     "ないぞ":
     {
         "text": ["None","ノー"],
-        "lou": true
+        "lou": true,
+        "loulv":2,
     },
     "ない":
     {
         "text": ["None","ノー"],
-        "lou": true
+        "lou": true,
+        "loulv":1,
     },
     "危":
     {
         "text": ["Danger","デンジャー"],
-        "lou": true
+        "lou": true,
+        "loulv":2,
     },
     "会":
     {
         "text": ["ミーツ","meat"],
-        "lou": true
+        "lou": true,
+        "loulv":2,
     },
     "ラック":
     {
         "text": ["Luck"],
-        "lou": true
+        "lou": true,
+        "loulv":2,
     },
     "近":
     {
         "text": ["near"],
-        "lou": true
+        "lou": true,
+        "loulv":2,
     },
     "跳ね":
     {
         "text": ["ホップ","Hop"],
-        "lou": true
+        "lou": true,
+        "loulv":2,
     },
 
     //日本語変換
